@@ -146,7 +146,7 @@ public abstract class BaseDao<T> {
                 ps.setObject(i + 1, args[i]);
 
             }
-//
+
             rs = ps.executeQuery();
             if(rs.next()){
                 return (E) rs.getObject(1);
