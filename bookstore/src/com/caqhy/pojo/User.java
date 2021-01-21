@@ -1,6 +1,6 @@
 package com.caqhy.pojo;
 
-public class User {
+public class User {//
     private Integer id;
     private String email;
     private String username;
