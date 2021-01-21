@@ -8,7 +8,7 @@ public interface UserDao {
 
     User queryUserByUsername(Connection conn, String username);
 
-//
+
     User queryUserByUsernameAndPassword(Connection conn, String username, String password);
 
 

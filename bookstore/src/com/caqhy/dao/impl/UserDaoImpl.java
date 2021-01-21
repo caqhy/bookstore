@@ -17,7 +17,7 @@ public class UserDaoImpl extends BaseDao<User> implements UserDao {
         String sql = "select `id`,`username`,`password`,`email` from t_user where username = ? and password = ?";
         return queryForOne(conn, sql, username, password);
     }
-//
+
     @Override
     public int saveUser(Connection conn, User user) {
         String sql = "insert into t_user(`username`,`password`,`email`) values(?,?,?)";

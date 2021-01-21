@@ -11,11 +11,11 @@ import java.sql.Connection;
 
 public class UserDaoTest {
     UserDao userDao = new UserDaoImpl();
-//
+
     @Test
     public void queryUserByUsername() {
         Connection conn = JdbcUtils.getConnection();
-//
+
         if (userDao.queryUserByUsername(conn,"admin1234") == null ){
             System.out.println("用户名可用！");
         } else {
