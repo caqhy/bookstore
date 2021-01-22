@@ -3,7 +3,7 @@ package com.caqhy.dao.impl;
 import com.caqhy.dao.UserDao;
 import com.caqhy.pojo.User;
 
-import java.sql.Connection;
+
 
 public class UserDaoImpl extends BaseDao<User> implements UserDao {
     @Override
