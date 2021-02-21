@@ -8,6 +8,7 @@ public interface BookDao {
 
     int addBook(Book book);
 
+
     int deleteBookById(Integer id);
 
     int updateBook(Book book);
