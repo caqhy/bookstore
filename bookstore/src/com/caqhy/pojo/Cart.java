@@ -4,7 +4,17 @@ import java.math.BigDecimal;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
+/**
+ * 购物车对象
+ */
 public class Cart {
+//    private Integer totalCount;
+//    private BigDecimal totalPrice;
+
+    /**
+     * key是商品编号，
+     * value，是商品信息
+     */
     private Map<Integer,CartItem> items = new LinkedHashMap<Integer,CartItem>();
 
     /**

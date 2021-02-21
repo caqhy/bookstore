@@ -2,6 +2,9 @@ package com.caqhy.pojo;
 
 import java.math.BigDecimal;
 
+/**
+ * 订单项
+ */
 public class OrderItem {
     private Integer id;
     private String name;

@@ -3,6 +3,10 @@ package com.caqhy.pojo;
 import java.util.List;
 
 
+/**
+ * Page是分页的模型对象
+ * @param <T> 是具体的模块的javaBean类
+ */
 public class Page<T> {
     public static final Integer PAGE_SIZE = 4;
     // 当前页码

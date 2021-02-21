@@ -2,6 +2,9 @@ package com.caqhy.pojo;
 
 import java.math.BigDecimal;
 
+/**
+ * 购物车的商品项
+ */
 public class CartItem {
     private Integer id;
     private String name;

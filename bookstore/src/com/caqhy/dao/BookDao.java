@@ -6,15 +6,15 @@ import java.util.List;
 
 public interface BookDao {
 
-    public int addBook(Book book);
+    int addBook(Book book);
 
-    public int deleteBookById(Integer id);
+    int deleteBookById(Integer id);
 
-    public int updateBook(Book book);
+    int updateBook(Book book);
 
-    public Book queryBookById(Integer id);
+    Book queryBookById(Integer id);
 
-    public List<Book> queryBooks();
+    List<Book> queryBooks();
 
     Integer queryForPageTotalCount();
 

@@ -4,6 +4,6 @@ import com.caqhy.pojo.Order;
 
 public interface OrderDao {
 
-    public int saveOrder(Order order);
+    int saveOrder(Order order);
 
 }
